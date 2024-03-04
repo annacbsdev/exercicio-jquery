@@ -1,0 +1,50 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin-left: 70px
+}
+
+#lista-tarefas {
+    list-style-type: none; 
+    padding: 0;
+    width: 50%;
+}
+
+#lista-tarefas li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#lista-tarefas li:hover {
+    background-color: #f0f0f0;
+}
+
+.completed {
+    text-decoration: line-through; 
+}
+
+form button{
+    border: none;
+    background-color: rgb(0, 194, 74);
+    color: white;
+    padding: 12px;
+    border-radius: 10px ;
+    font-weight: 600;
+    
+}
+
+form button:hover{
+    background-color: rgb(1, 110, 43);
+    cursor: pointer;
+    transition: .2s
+}
+
+form input{
+    padding: 10px;
+    border-radius: 10px ;
+}
